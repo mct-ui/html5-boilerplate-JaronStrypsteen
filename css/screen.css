@@ -150,7 +150,15 @@ a:active {
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    html {
+        padding: 48px 48px 24px;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    html {
+        padding: 48px 48px 24px;
+    }
+}
